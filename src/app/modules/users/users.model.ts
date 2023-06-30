@@ -1,8 +1,5 @@
-import { Model, Schema, model } from 'mongoose'
-import { IUser } from './users.interface'
-
-// Create a new Model type that knows about IUserMethods...
-type UserModel = Model<IUser, object>
+import { Schema, model } from 'mongoose';
+import { IUser, UserModel } from './users.interface';
 
 // Schema
 const UserSchema = new Schema<IUser>(
@@ -14,6 +11,6 @@ const UserSchema = new Schema<IUser>(
   {
     timestamps: true,
   }
-)
+);
 
-export const User = model<IUser, UserModel>('User', UserSchema)
+export const User = model<IUser, UserModel>('User', UserSchema);
