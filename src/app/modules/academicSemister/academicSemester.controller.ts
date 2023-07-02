@@ -1,12 +1,14 @@
 import { NextFunction, RequestHandler, Request, Response } from 'express';
-import { userService } from './users.service';
+import { AcademicSemesterService } from './academicSemester.service';
+import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
-import catchAsync from '../../../shared/catchAsync';
-const createUser: RequestHandler = catchAsync(
+const createSemester: RequestHandler = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
-    const { user } = req.body;
-    const result = await userService.createUser(user);
+    const { ...AcademicSemesterData } = req.body;
+    const result = await AcademicSemesterService.createSemester(
+      AcademicSemesterData
+    );
     next();
     sendResponse(res, {
       statusCode: httpStatus.OK,
@@ -17,6 +19,6 @@ const createUser: RequestHandler = catchAsync(
   }
 );
 
-export const UserController = {
-  createUser,
+export const AcademicSemesterController = {
+  createSemester,
 };
