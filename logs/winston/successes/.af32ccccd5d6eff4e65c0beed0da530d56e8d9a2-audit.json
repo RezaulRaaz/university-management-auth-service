@@ -44,6 +44,11 @@
             "date": 1688348385721,
             "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-03-07-07-success.log",
             "hash": "6af87ac1fdcd5ce412daefa0dfba313ccad4996142075ab5ed26b5d071b762c5"
+        },
+        {
+            "date": 1688613697743,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-06-07-09-success.log",
+            "hash": "63dc2b5666016bddbc394e71e4dfcfe3ec91349818ebb963e3b50eee9a7b15d1"
         }
     ],
     "hashType": "sha256"
