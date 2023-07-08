@@ -49,6 +49,51 @@
             "date": 1688613697743,
             "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-06-07-09-success.log",
             "hash": "63dc2b5666016bddbc394e71e4dfcfe3ec91349818ebb963e3b50eee9a7b15d1"
+        },
+        {
+            "date": 1688634225227,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-06-07-15-success.log",
+            "hash": "6127823123dc2b4c78b69ff2511ca54347850d243e63adce9b18773bf9c717e4"
+        },
+        {
+            "date": 1688638492942,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-06-07-16-success.log",
+            "hash": "39f11bdb52a635ab5dcf8070c2503cf3779aecb93d6a5c212ac8cd10f67a642b"
+        },
+        {
+            "date": 1688744702176,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-07-07-21-success.log",
+            "hash": "38a7b6688170aeb8eff71b1a70c41f6fa254f693d761700a37113148f02cb313"
+        },
+        {
+            "date": 1688783493904,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-08-success.log",
+            "hash": "2e59a314febcd50b5195cae7c0e79cb0fcd2f52bf929f558c85c44dea8dbc0fe"
+        },
+        {
+            "date": 1688785998623,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-09-success.log",
+            "hash": "ff3e5ae484b5bb63f5535bb1ccc8ab323e901ce58ea5c67fa57f85f0314125db"
+        },
+        {
+            "date": 1688791310520,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-10-success.log",
+            "hash": "428d005a04fb078ca56abef53db6d1f805db89dc9859169b891ae8343c20315a"
+        },
+        {
+            "date": 1688792643779,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-11-success.log",
+            "hash": "025f44cac7bacd6b89d001b16f5b616e19bc178f41477e1ccf6e2676160f16f3"
+        },
+        {
+            "date": 1688796524827,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-12-success.log",
+            "hash": "a7e83d8021a65ed8c1ec1a0b0db00e3066df8df4bf5f2e8669134a0a8cde2671"
+        },
+        {
+            "date": 1688829803563,
+            "name": "/Users/supreme/Documents/next-level-dev/university-management-auth-service-backend/logs/winston/successes/uni-2023-08-07-21-success.log",
+            "hash": "20eb5379936f551310e08f4f64e6ebbad34e898a7d3d336f3b97edee36a282d7"
         }
     ],
     "hashType": "sha256"
