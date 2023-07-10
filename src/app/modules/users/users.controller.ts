@@ -3,20 +3,20 @@ import { userService } from './users.service';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
-const createUser: RequestHandler = catchAsync(
+const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { user } = req.body;
-    const result = await userService.createUser(user);
+    const { student, ...userData } = req.body;
+    const result = await userService.createStudent(student, userData);
 
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Semester created successfully',
+      message: 'User created successfully',
       data: result,
     });
   }
 );
 
 export const UserController = {
-  createUser,
+  createStudent,
 };
